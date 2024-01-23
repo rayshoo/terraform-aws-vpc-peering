@@ -1,18 +1,18 @@
 variable "vpc_name" {
   description = "vpc name"
-  type        = any
-  default     = {}
+  type        = string
 }
 
 variable "vpc_id" {
   description = "vpc id"
-  type        = any
-  default     = {}
+  type        = string
+  default     = ""
 }
 
 variable "vpc_peering_name" {
   description = "vpc peering name"
-  type        = string
+  type        = any
+  default     = {}
 }
 
 variable "peer_vpcs" {
